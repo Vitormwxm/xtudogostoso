@@ -49,20 +49,24 @@ figure {
 .cardapio-grid a {
     text-decoration: none;
     color: black;
+    gap: 0px;
+    box-sizing: border-box;
+    margin-right: 0px;
 }
 
 .burguer-card {
     display: flex;
+    box-sizing: border-box;
     flex-direction: column;
     justify-content: space-between;
     background: linear-gradient(to bottom, #ffa500 60%, #fff 50%);
     border-radius: 10px;
     box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-    padding: 15px;
+    padding: 20px;
     text-align: center;
     transition: transform 0.3s ease;
-    height: 200px;
-    width: 200px;
+    height: 250px;
+    width: auto;
 }
 
 .burguer-img {
@@ -93,7 +97,7 @@ figure {
 
 .ingredientes:hover{
     transform: scale(1.05);
-    cursor: url(img/icons8-carrinho-de-compras-30.png), auto;
+    cursor: url(/xtudogostoso/img/iconBuy.png), auto;
     box-shadow: 8px 8px 15px 12px rgb(205, 205, 205, 0.25);
     
 }

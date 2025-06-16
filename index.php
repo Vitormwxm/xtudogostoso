@@ -11,7 +11,7 @@
         
             <div class="cardapio-grid">
                 <?php foreach($burgers as $burguer): ?>
-                    <a href="">
+                    <a href="<?= $BASE_URL?>/burgers.php?id=<?=$burguer["id"]?>">
                         <div class="burguer-card">
                                 <div class="burguer-img">
                                     <img src="<?= $BASE_URL ?>/img/<?= $burguer["img"]?>" width="100px" alt="">

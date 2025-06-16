@@ -17,6 +17,8 @@
 <body>  
     <header>
         <figure>
-            <img class="logo" src="<?= $BASE_URL?>/img/tudogostoso.png" alt="logo TUDOGOSTOSO">
+            <a href="<?= $BASE_URL ?>">
+                <img class="logo" src="<?= $BASE_URL?>/img/tudogostoso.png" alt="logo TUDOGOSTOSO">
+            </a>
         </figure>
     </header>
